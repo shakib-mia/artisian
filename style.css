@@ -44,3 +44,27 @@ button {
   @apply text-xxs md:text-xs 2xl:text-button;
 }
 /* } */
+
+#nav-check:checked + #navbar {
+  @apply h-auto;
+}
+
+#video-container iframe {
+  @apply flex scale-0 transition duration-1000;
+}
+
+#video-container iframe {
+  @apply flex scale-0 transition duration-1000;
+}
+
+#video-check:checked + #video-container iframe {
+  @apply scale-100;
+}
+
+#video-container {
+  @apply invisible duration-500;
+}
+
+#video-check:checked + #video-container {
+  @apply visible;
+}

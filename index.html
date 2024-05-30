@@ -7,6 +7,10 @@
     <title>Vite App</title>
     <link rel="stylesheet" href="./style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/b50fc748ca.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body
     class="bg-[size:100%_cover] text-primary"
@@ -15,11 +19,17 @@
     <!-- Navbar Section -->
 
     <div class="absolute z-[999] w-full">
-      <nav class="container flex justify-between py-8 lg:items-center">
+      <nav class="container flex items-center justify-between py-8">
         <img src="./assets/logo.png" class="h-fit" alt="logo" />
 
+        <label class="lg:hidden" for="nav-check">
+          <i class="fas fa-bars"></i>
+        </label>
+        <input type="checkbox" name="" id="nav-check" class="hidden" />
+
         <ul
-          class="flex h-0 items-center gap-12 overflow-hidden font-judson text-sm lg:h-auto"
+          class="absolute left-0 top-0 -z-[1] flex h-0 w-full flex-col items-center gap-12 overflow-hidden bg-white pb-2 pt-24 font-judson text-sm lg:static lg:top-0 lg:h-auto lg:flex-row lg:justify-end lg:bg-transparent lg:pt-0"
+          id="navbar"
         >
           <li>Home</li>
           <li>Services</li>
@@ -40,9 +50,9 @@
     <!-- Hero section -->
 
     <header
-      class="container flex h-screen flex-wrap-reverse items-end gap-4 lg:flex-nowrap lg:items-center lg:gap-12"
+      class="container flex h-[90vh] flex-wrap-reverse items-end gap-6 lg:flex-nowrap lg:items-center lg:gap-12"
     >
-      <aside class="w-full lg:w-1/2">
+      <aside class="w-full xl:w-1/2">
         <h1
           class="font-sansation font-bold uppercase lg:w-9/12"
           data-aos="fade-right"
@@ -61,44 +71,79 @@
           hand-picked products tailored to your style. space and budget
         </p>
 
-        <button
-          class="border-2 border-primary bg-primary px-8 py-4 text-white shadow-[5px_8px_0] shadow-secondary transition duration-500 hover:bg-white hover:text-primary hover:shadow-none"
-        >
-          Contact Us
-        </button>
+       <div class="flex gap-12">
+          <button
+            class="border-2 border-primary bg-primary px-8 py-4 text-white shadow-[5px_8px_0] shadow-secondary transition duration-500 hover:bg-white hover:text-primary hover:shadow-none"
+          >
+            Contact Us
+          </button>
+          <label class="flex gap-4 items-center text-sm cursor-pointer">
+            <img src="./assets/icons/play.png" class="w-14 aspect-square h-14" alt="play">
+            <p class="font-judson">Watch Video</p>
+            <input class="hidden" type="checkbox" id="video-check" />
+
+            <div class="h-screen w-screen fixed left-0 top-0 bg-black bg-opacity-30 z-[99999] flex justify-center items-center" id="video-container">
+              <div class="w-11/12 lg:w-1/2 relative aspect-[16/9]">
+                <label for="video-check" class="absolute -right-4 -top-7 lg:-right-7 lg:-top-7 cursor-pointer text-white">&times;</label>
+                <iframe id="video" width="100%" height="100%" src="https://www.youtube.com/embed/xcJtL7QggTI?si=1Foi26HSTSFzNqJT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          </label>
+       </div>
       </aside>
-      <aside class="mt-auto w-full pr-5 lg:mt-0 lg:w-1/2">
-        <div class="mb-5 flex gap-5">
-          <img
-            src="./assets/hero-images/Header Image-2.png"
-            class="w-7/12"
-            alt="Header Image-2"
+      <aside class="mt-auto w-full pr-5 lg:mt-0 xl:w-1/2">
+        <!-- Hero images -->
+
+        <div class="lg:mb-5 flex gap-2 mb-2 lg:gap-5">
+          <div
+            class="w-7/12 overflow-hidden"
             data-aos="fade-up"
             data-aos-duration="1000"
-          />
-          <img
-            src="./assets/hero-images/Header Image-1.png"
-            class="w-5/12"
-            alt="Header Image-1"
+          >
+            <img
+              src="./assets/hero-images/Header Image-2.png"
+              class="w-full cursor-pointer duration-500 hover:scale-125 h-full"
+              alt="Header Image-2"
+            />
+          </div>
+          <div
+            class="w-5/12 overflow-hidden"
             data-aos="fade-right"
             data-aos-duration="1000"
-          />
+          >
+            <img
+              src="./assets/hero-images/Header Image-1.png"
+              class="w-full cursor-pointer object-fill duration-500 scale-x-[-1] hover:scale-x-[-1.25] hover:scale-125"
+              alt="Header Image-1"
+            />
+          </div>
         </div>
-        <div class="flex gap-5">
-          <img
-            src="./assets/hero-images/Header Image-3.png"
-            class="w-5/12"
-            alt="Header Image-3"
+
+          <div class="flex gap-2 lg:gap-5">
+          <div
+            class="w-5/12 overflow-hidden"
             data-aos="fade-left"
             data-aos-duration="1000"
-          />
-          <img
-            src="./assets/hero-images/Header Image-4.png"
-            class="w-7/12"
-            alt="Header Image-4"
+          >
+            <img
+              src="./assets/hero-images/Header Image-3.png"
+              class="w-full cursor-pointer duration-500 hover:scale-125"
+              alt="Header Image-3"
+            />
+          </div>
+          <div
+            class="w-7/12 overflow-hidden"
             data-aos="fade-down"
             data-aos-duration="1000"
-          />
+          >
+            <img
+              src="./assets/hero-images/Header Image-4.png"
+              class="h-full w-full cursor-pointer object-fill duration-500 hover:scale-125"
+              alt="Header Image-4"
+            />
+          </div>
+          </div>
+        </div>
         </div>
       </aside>
     </header>
