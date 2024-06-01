@@ -16,615 +16,762 @@
     class="bg-[size:100%_cover] text-primary"
     style="background-image: url(./assets/header-bg.png)"
   >
-    <!-- Navbar Section -->
-
-    <div class="absolute z-[999] w-full">
-      <nav class="container flex items-center justify-between py-8">
-        <img src="./assets/logo.png" class="h-fit" alt="logo" />
-
-        <label class="lg:hidden" for="nav-check">
-          <i class="fas fa-bars"></i>
-        </label>
-        <input type="checkbox" name="" id="nav-check" class="hidden" />
-
-        <ul
-          class="absolute left-0 top-0 -z-[1] flex h-0 w-full flex-col items-center gap-12 overflow-hidden bg-white pb-2 pt-24 font-judson text-sm lg:static lg:top-0 lg:h-auto lg:flex-row lg:justify-end lg:bg-transparent lg:pt-0"
-          id="navbar"
-        >
-          <li>Home</li>
-          <li>Services</li>
-          <li>Products</li>
-          <li>Gallery</li>
-          <li>Review</li>
-          <li>
-            <button
-              class="rounded border-2 border-primary bg-primary px-8 py-4 text-white transition hover:bg-white hover:text-primary"
-            >
-              Contact Us
-            </button>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
-    <!-- Hero section -->
-
-    <header
-      class="container flex h-[90vh] flex-wrap-reverse items-end gap-6 lg:flex-nowrap lg:items-center lg:gap-12"
+    <div
+      class="bg-[size:100%_cover] text-primary"
+      style="background-image: url(./assets/header-bg.png)"
     >
-      <aside class="w-full xl:w-1/2">
-        <h1
-          class="font-sansation font-bold uppercase lg:w-9/12"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-        >
-          MODERN lIVING INTERIOR FOR
-          <span class="text-secondary">YOUR HOME</span>
-        </h1>
-        <p
-          class="mb-7 mt-4 text-xs lg:mb-28 lg:mt-8 lg:w-9/12"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-delay="100"
-        >
-          Being you dream home to life with one or no one design help &
-          hand-picked products tailored to your style. space and budget
-        </p>
+      <!-- Navbar Section -->
 
-        <div class="flex gap-12">
-          <button
-            class="border-2 border-primary bg-primary px-8 py-4 font-judson text-white shadow-[5px_8px_0] shadow-secondary transition duration-500 hover:border-secondary hover:bg-secondary hover:shadow-none"
-          >
-            Explore Now
-          </button>
-          <label class="flex cursor-pointer items-center gap-4 text-sm">
-            <img
-              src="./assets/icons/play.png"
-              class="aspect-square h-14 w-14"
-              alt="play"
-            />
-            <p class="font-judson">Watch Video</p>
-            <input class="hidden" type="checkbox" id="video-check" />
+      <div class="absolute z-[999] w-full">
+        <nav class="container flex items-center justify-between py-8">
+          <img src="./assets/logo.png" class="h-fit" alt="logo" />
 
-            <div
-              class="fixed left-0 top-0 z-[99999] flex h-screen w-screen items-center justify-center bg-black bg-opacity-30"
-              id="video-container"
-            >
-              <div class="relative aspect-[16/9] w-11/12 lg:w-1/2">
-                <label
-                  for="video-check"
-                  class="absolute -right-4 -top-7 cursor-pointer text-white lg:-right-7 lg:-top-7"
-                  >&times;</label
-                >
-                <iframe
-                  id="video"
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/xcJtL7QggTI?si=1Foi26HSTSFzNqJT"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
-              </div>
-            </div>
+          <label class="lg:hidden" for="nav-check">
+            <i class="fas fa-bars"></i>
           </label>
-        </div>
-      </aside>
-      <aside class="mt-auto w-full pr-5 lg:mt-0 xl:w-1/2">
-        <!-- Hero images -->
+          <input type="checkbox" name="" id="nav-check" class="hidden" />
 
-        <div class="mb-2 flex gap-2 lg:mb-5 lg:gap-5">
-          <div
-            class="w-7/12 overflow-hidden"
-            data-aos="fade-up"
-            data-aos-duration="1000"
+          <ul
+            class="absolute left-0 top-0 -z-[1] flex h-0 w-full flex-col items-center gap-12 overflow-hidden bg-white pb-2 pt-24 font-judson text-sm lg:static lg:top-0 lg:h-auto lg:flex-row lg:justify-end lg:bg-transparent lg:pt-0"
+            id="navbar"
           >
-            <img
-              src="./assets/hero-images/Header Image-2.png"
-              class="h-full w-full cursor-pointer duration-500 hover:scale-125"
-              alt="Header Image-2"
-            />
-          </div>
-          <div
-            class="w-5/12 overflow-hidden"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
-            <img
-              src="./assets/hero-images/Header Image-1.png"
-              class="w-full scale-x-[-1] cursor-pointer object-fill duration-500 hover:scale-125 hover:scale-x-[-1.25]"
-              alt="Header Image-1"
-            />
-          </div>
-        </div>
-
-        <div class="flex gap-2 lg:gap-5">
-          <div
-            class="w-5/12 overflow-hidden"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-          >
-            <img
-              src="./assets/hero-images/Header Image-3.png"
-              class="w-full cursor-pointer duration-500 hover:scale-125"
-              alt="Header Image-3"
-            />
-          </div>
-          <div
-            class="w-7/12 overflow-hidden"
-            data-aos="fade-down"
-            data-aos-duration="1000"
-          >
-            <img
-              src="./assets/hero-images/Header Image-4.png"
-              class="h-full w-full cursor-pointer object-fill duration-500 hover:scale-125"
-              alt="Header Image-4"
-            />
-          </div>
-        </div>
-      </aside>
-    </header>
-
-    <main class="container">
-      <!-- clients section -->
-      <div
-        class="grid grid-cols-5 items-center bg-white px-3 py-6 shadow-[-31px_52px_95px_#3E3E3E14] lg:px-12 lg:py-14"
-      >
-        <img
-          src="./assets/clients/Mask group-3.png"
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-          data-aos-delay="400"
-          alt="kiski"
-        />
-        <img
-          src="./assets/clients/Mask group-2.png"
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-          data-aos-delay="200"
-          alt="makita"
-        />
-        <img
-          src="./assets/clients/Mask group-1.png"
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-          data-aos-delay="0"
-          alt="braun"
-        />
-        <img
-          src="./assets/clients/Mask group-4.png"
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-          data-aos-delay="200"
-          alt="krasavik.by"
-        />
-        <img
-          src="./assets/clients/Mask group-1.png"
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-          data-aos-delay="400"
-          alt="braun"
-        />
-      </div>
-
-      <!-- Home projects section -->
-      <section class="my-10 lg:my-28">
-        <div class="grid grid-cols-1 items-center lg:grid-cols-2">
-          <h2
-            class="font-montserrat font-semibold capitalize lg:w-10/12"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
-            Services We Provide For your
-            <span class="text-secondary">Home Projects</span>
-          </h2>
-
-          <aside
-            class="font-inter"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-          >
-            <p class="lg:ml-auto lg:w-8/12">
-              We offer a wide range of services to bring your home projects to
-              life. From initial design and planning to construction and
-              finishing touches, our team handles it all
-            </p>
-          </aside>
-        </div>
-
-        <div
-          class="mt-20 grid grid-cols-1 gap-14 md:grid-cols-2 lg:grid-cols-3"
-        >
-          <div
-            class="group bg-white p-10 text-center shadow-[0_8px_16px_0_#00000014] duration-700 hover:shadow-[0_16px_24px_0_#0000001F]"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <img
-              src="./assets/services/interior-design.png"
-              alt="interior-design"
-              class="mx-auto"
-            />
-            <h4 class="my-6 font-semibold">Interior Design</h4>
-            <p class="mb-10 text-xs">
-              Once in the design process, we must go deeper in your project’s
-              foundation.
-            </p>
-            <button
-              class="broder-[#A2B2B2] border px-5 py-2 transition duration-300 group-hover:bg-primary group-hover:text-white"
-            >
-              Read More
-            </button>
-          </div>
-          <div
-            class="group bg-white p-10 text-center shadow-[0_8px_16px_0_#00000014] duration-700 hover:shadow-[0_16px_24px_0_#0000001F]"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="500"
-          >
-            <img
-              src="./assets/services/architecture.png"
-              alt="architecture"
-              class="mx-auto"
-            />
-            <h4 class="my-6 font-semibold">Architecture</h4>
-            <p class="mb-10 text-xs">
-              Once in the design process, we must go deeper in your project’s
-              foundation.
-            </p>
-            <button
-              class="broder-[#A2B2B2] border px-5 py-2 transition duration-300 group-hover:bg-primary group-hover:text-white"
-            >
-              Read More
-            </button>
-          </div>
-          <div
-            class="group bg-white p-10 text-center shadow-[0_8px_16px_0_#00000014] duration-700 hover:shadow-[0_16px_24px_0_#0000001F]"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="1000"
-          >
-            <img
-              src="./assets/services/plants.png"
-              alt="plants"
-              class="mx-auto"
-            />
-            <h4 class="my-6 font-semibold">Plants</h4>
-            <p class="mb-10 text-xs">
-              Once in the design process, we must go deeper in your project’s
-              foundation.
-            </p>
-            <button
-              class="broder-[#A2B2B2] border px-5 py-2 transition duration-300 group-hover:bg-primary group-hover:text-white"
-            >
-              Read More
-            </button>
-          </div>
-        </div>
-      </section>
-
-      <!-- work process section -->
-      <section
-        class="container my-20 grid grid-cols-1 items-center gap-10 lg:my-28 lg:grid-cols-2 lg:gap-20 2xl:gap-44"
-      >
-        <aside class="order-2 lg:order-1">
-          <h2
-            class="font-semibold capitalize"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
-            Our work process make your
-            <span class="text-secondary">dream true</span>
-          </h2>
-
-          <ul class="mt-12 flex flex-col gap-6">
-            <li
-              data-aos="fade-right"
-              data-aos-duration="1000"
-              data-aos-delay="100"
-            >
-              <div class="flex items-center gap-2">
-                <div
-                  class="h-4 w-4 rounded-full border-[3px] border-secondary"
-                ></div>
-
-                <h4 class="font-semibold">Branding</h4>
-              </div>
-
-              <p class="mt-2 text-xs">
-                Being you dream home to life with one or no one design help &
-                hand-picked products tailored to your style. space and budget
-              </p>
-            </li>
-
-            <li
-              data-aos="fade-right"
-              data-aos-duration="1000"
-              data-aos-delay="200"
-            >
-              <div class="flex items-center gap-2">
-                <div
-                  class="h-4 w-4 rounded-full border-[3px] border-secondary"
-                ></div>
-
-                <h4 class="font-semibold">Processing</h4>
-              </div>
-
-              <p class="mt-2 text-xs">
-                Being you dream home to life with one or no one design help &
-                hand-picked products tailored to your style. space and budget
-              </p>
-            </li>
-
-            <li
-              data-aos="fade-right"
-              data-aos-duration="1000"
-              data-aos-delay="300"
-            >
-              <div class="flex items-center gap-2">
-                <div
-                  class="h-4 w-4 rounded-full border-[3px] border-secondary"
-                ></div>
-
-                <h4 class="font-semibold">Final Touch</h4>
-              </div>
-
-              <p class="mt-2 text-xs">
-                Being you dream home to life with one or no one design help &
-                hand-picked products tailored to your style. space and budget
-              </p>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Products</li>
+            <li>Gallery</li>
+            <li>Review</li>
+            <li>
+              <button
+                class="rounded border-2 border-primary bg-primary px-8 py-4 text-white transition hover:bg-white hover:text-primary"
+              >
+                Contact Us
+              </button>
             </li>
           </ul>
-        </aside>
+        </nav>
+      </div>
 
-        <img
-          src="./assets/process-image.jpg"
-          alt="process-image"
-          class="order-1 shadow-[-20px_-17px] shadow-secondary lg:order-2"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-        />
-      </section>
+      <!-- Hero section -->
 
-      <!-- Shop by categories -->
-      <section class="container my-10 lg:my-28 lg:gap-20 2xl:gap-44">
-        <h2 class="text-center font-semibold capitalize">
-          Shop By
-          <span class="text-secondary">Categories</span>
-        </h2>
+      <header
+        class="container flex h-[90vh] flex-wrap-reverse items-end gap-6 lg:flex-nowrap lg:items-center lg:gap-12"
+      >
+        <aside class="w-full xl:w-1/2">
+          <h1
+            class="font-sansation font-bold uppercase lg:w-9/12"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            MODERN lIVING INTERIOR FOR
+            <span class="text-secondary">YOUR HOME</span>
+          </h1>
+          <p
+            class="mb-7 mt-4 text-xs lg:mb-28 lg:mt-8 lg:w-9/12"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            Being you dream home to life with one or no one design help &
+            hand-picked products tailored to your style. space and budget
+          </p>
 
-        left...
-      </section>
+          <div class="flex gap-12">
+            <button
+              class="border-2 border-primary bg-primary px-8 py-4 font-judson text-white shadow-[5px_8px_0] shadow-secondary transition duration-500 hover:border-secondary hover:bg-secondary hover:shadow-none"
+            >
+              Explore Now
+            </button>
+            <label class="flex cursor-pointer items-center gap-4 text-sm">
+              <img
+                src="./assets/icons/play.png"
+                class="aspect-square h-14 w-14"
+                alt="play"
+              />
+              <p class="font-judson">Watch Video</p>
+              <input class="hidden" type="checkbox" id="video-check" />
 
-      <!-- Recent Projects Section -->
-      <section class="container my-10 lg:my-28 lg:gap-20 2xl:gap-44">
-        <div class="flex flex-col gap-6 lg:flex-row">
-          <div class="w-full lg:w-3/12">
-            <h2 class="font-montserrat font-semibold">
-              Our Recent <span class="text-secondary">Project</span>
-            </h2>
-            <p>
-              Artisian Interior company employs over 2000 employees, the
-              majority of whom are based on project sites.
-            </p>
+              <div
+                class="fixed left-0 top-0 z-[99999] flex h-screen w-screen items-center justify-center bg-black bg-opacity-30"
+                id="video-container"
+              >
+                <div class="relative aspect-[16/9] w-11/12 lg:w-1/2">
+                  <label
+                    for="video-check"
+                    class="absolute -right-4 -top-7 cursor-pointer text-white lg:-right-7 lg:-top-7"
+                    >&times;</label
+                  >
+                  <iframe
+                    id="video"
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/xcJtL7QggTI?si=1Foi26HSTSFzNqJT"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </label>
           </div>
+        </aside>
+        <aside class="mt-auto w-full pr-5 lg:mt-0 xl:w-1/2">
+          <!-- Hero images -->
 
-          <div class="w-full lg:w-9/12">
-            <div class="flex flex-col gap-6 lg:flex-row">
-              <!-- item -->
-              <div
-                class="group relative w-full overflow-hidden rounded-sm bg-white p-2 shadow-[0_8px_24px_0_#0000001f] transition-[box-hadow] duration-500 hover:shadow-[0_8px_8px_0_#00000014] lg:w-1/2"
-              >
-                <div
-                  class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-secondary bg-opacity-50 text-white opacity-0 transition duration-500 group-hover:opacity-100"
-                >
-                  <div class="h-fit w-fit">
-                    <p class="font-montserrat text-sm">
-                      Moduler For Living Room
-                    </p>
-                    <p class="text-center">
-                      <a href="#" class="mt-2">
-                        Visit Project
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <img src="./assets/projects/Lunar Table Lame.png" alt="" />
-              </div>
-              <!-- item -->
-
-              <div
-                class="group relative w-full overflow-hidden rounded-sm bg-white p-2 shadow-[0_8px_24px_0_#0000001f] transition-[box-hadow] duration-500 hover:shadow-[0_8px_8px_0_#00000014] lg:w-1/2"
-              >
-                <div
-                  class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-secondary bg-opacity-50 text-white opacity-0 transition duration-500 group-hover:opacity-100"
-                >
-                  <div class="h-fit w-fit">
-                    <p class="font-montserrat text-sm">
-                      Moduler For Living Room
-                    </p>
-                    <p class="text-center">
-                      <a href="#" class="mt-2">
-                        Visit Project
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <img src="./assets/projects/Lunar Table Lame-1.png" alt="" />
-              </div>
+          <div class="mb-2 flex gap-2 lg:mb-5 lg:gap-5">
+            <div
+              class="w-7/12 overflow-hidden"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <img
+                src="./assets/hero-images/Header Image-2.png"
+                class="h-full w-full cursor-pointer duration-500 hover:scale-125"
+                alt="Header Image-2"
+              />
+            </div>
+            <div
+              class="w-5/12 overflow-hidden"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <img
+                src="./assets/hero-images/Header Image-1.png"
+                class="w-full scale-x-[-1] cursor-pointer object-fill duration-500 hover:scale-125 hover:scale-x-[-1.25]"
+                alt="Header Image-1"
+              />
             </div>
           </div>
+
+          <div class="flex gap-2 lg:gap-5">
+            <div
+              class="w-5/12 overflow-hidden"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <img
+                src="./assets/hero-images/Header Image-3.png"
+                class="w-full cursor-pointer duration-500 hover:scale-125"
+                alt="Header Image-3"
+              />
+            </div>
+            <div
+              class="w-7/12 overflow-hidden"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <img
+                src="./assets/hero-images/Header Image-4.png"
+                class="h-full w-full cursor-pointer object-fill duration-500 hover:scale-125"
+                alt="Header Image-4"
+              />
+            </div>
+          </div>
+        </aside>
+      </header>
+
+      <main class="container">
+        <!-- clients section -->
+        <div
+          class="grid grid-cols-5 items-center bg-white px-3 py-6 shadow-[-31px_52px_95px_#3E3E3E14] lg:px-12 lg:py-14"
+        >
+          <img
+            src="./assets/clients/Mask group-3.png"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+            alt="kiski"
+          />
+          <img
+            src="./assets/clients/Mask group-2.png"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+            alt="makita"
+          />
+          <img
+            src="./assets/clients/Mask group-1.png"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="0"
+            alt="braun"
+          />
+          <img
+            src="./assets/clients/Mask group-4.png"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+            alt="krasavik.by"
+          />
+          <img
+            src="./assets/clients/Mask group-1.png"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+            alt="braun"
+          />
         </div>
 
-        <div class="mt-6 flex flex-col gap-6 lg:flex-row">
-          <div class="w-full lg:w-9/12">
-            <div class="flex flex-col gap-6 lg:flex-row">
-              <!-- item -->
+        <!-- Home projects section -->
+        <section class="my-10 lg:my-28">
+          <div class="grid grid-cols-1 items-center lg:grid-cols-2">
+            <h2
+              class="font-montserrat font-semibold capitalize lg:w-10/12"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              Services We Provide For your
+              <span class="text-secondary">Home Projects</span>
+            </h2>
 
-              <div
-                class="group relative w-full overflow-hidden rounded-sm bg-white p-2 shadow-[0_8px_24px_0_#0000001f] transition-[box-hadow] duration-500 hover:shadow-[0_8px_8px_0_#00000014] lg:w-1/2"
-              >
-                <div
-                  class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-secondary bg-opacity-50 text-white opacity-0 transition duration-500 group-hover:opacity-100"
-                >
-                  <div class="h-fit w-fit">
-                    <p class="font-montserrat text-sm">
-                      Moduler For Living Room
-                    </p>
-                    <p class="text-center">
-                      <a href="#" class="mt-2">
-                        Visit Project
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <img src="./assets/projects/Lunar Table Lame-2.png" alt="" />
-              </div>
-              <!-- item -->
+            <aside
+              class="font-inter"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <p class="lg:ml-auto lg:w-8/12">
+                We offer a wide range of services to bring your home projects to
+                life. From initial design and planning to construction and
+                finishing touches, our team handles it all
+              </p>
+            </aside>
+          </div>
 
-              <div
-                class="group relative w-full overflow-hidden rounded-sm bg-white p-2 shadow-[0_8px_24px_0_#0000001f] transition-[box-hadow] duration-500 hover:shadow-[0_8px_8px_0_#00000014] lg:w-1/2"
+          <div
+            class="mt-20 grid grid-cols-1 gap-14 md:grid-cols-2 lg:grid-cols-3"
+          >
+            <div
+              class="group bg-white p-10 text-center shadow-[0_8px_16px_0_#00000014] duration-700 hover:shadow-[0_16px_24px_0_#0000001F]"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <img
+                src="./assets/services/interior-design.png"
+                alt="interior-design"
+                class="mx-auto"
+              />
+              <h4 class="my-6 font-semibold">Interior Design</h4>
+              <p class="mb-10 text-xs">
+                Once in the design process, we must go deeper in your project’s
+                foundation.
+              </p>
+              <button
+                class="broder-[#A2B2B2] border px-5 py-2 transition duration-300 group-hover:bg-primary group-hover:text-white"
               >
-                <div
-                  class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-secondary bg-opacity-50 text-white opacity-0 transition duration-500 group-hover:opacity-100"
-                >
-                  <div class="h-fit w-fit">
-                    <p class="font-montserrat text-sm">
-                      Moduler For Living Room
-                    </p>
-                    <p class="text-center">
-                      <a href="#" class="mt-2">
-                        Visit Project
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                      </a>
-                    </p>
-                  </div>
+                Read More
+              </button>
+            </div>
+            <div
+              class="group bg-white p-10 text-center shadow-[0_8px_16px_0_#00000014] duration-700 hover:shadow-[0_16px_24px_0_#0000001F]"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
+              <img
+                src="./assets/services/architecture.png"
+                alt="architecture"
+                class="mx-auto"
+              />
+              <h4 class="my-6 font-semibold">Architecture</h4>
+              <p class="mb-10 text-xs">
+                Once in the design process, we must go deeper in your project’s
+                foundation.
+              </p>
+              <button
+                class="broder-[#A2B2B2] border px-5 py-2 transition duration-300 group-hover:bg-primary group-hover:text-white"
+              >
+                Read More
+              </button>
+            </div>
+            <div
+              class="group bg-white p-10 text-center shadow-[0_8px_16px_0_#00000014] duration-700 hover:shadow-[0_16px_24px_0_#0000001F]"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="1000"
+            >
+              <img
+                src="./assets/services/plants.png"
+                alt="plants"
+                class="mx-auto"
+              />
+              <h4 class="my-6 font-semibold">Plants</h4>
+              <p class="mb-10 text-xs">
+                Once in the design process, we must go deeper in your project’s
+                foundation.
+              </p>
+              <button
+                class="broder-[#A2B2B2] border px-5 py-2 transition duration-300 group-hover:bg-primary group-hover:text-white"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- work process section -->
+        <section
+          class="container my-20 grid grid-cols-1 items-center gap-10 lg:my-28 lg:grid-cols-2 lg:gap-20 2xl:gap-44"
+        >
+          <aside class="order-2 lg:order-1">
+            <h2
+              class="font-semibold capitalize"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              Our work process make your
+              <span class="text-secondary">dream true</span>
+            </h2>
+
+            <ul class="mt-12 flex flex-col gap-6">
+              <li
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                <div class="flex items-center gap-2">
+                  <div
+                    class="h-4 w-4 rounded-full border-[3px] border-secondary"
+                  ></div>
+
+                  <h4 class="font-semibold">Branding</h4>
                 </div>
-                <img src="./assets/projects/Lunar Table Lame-3.png" alt="" />
+
+                <p class="mt-2 text-xs">
+                  Being you dream home to life with one or no one design help &
+                  hand-picked products tailored to your style. space and budget
+                </p>
+              </li>
+
+              <li
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                <div class="flex items-center gap-2">
+                  <div
+                    class="h-4 w-4 rounded-full border-[3px] border-secondary"
+                  ></div>
+
+                  <h4 class="font-semibold">Processing</h4>
+                </div>
+
+                <p class="mt-2 text-xs">
+                  Being you dream home to life with one or no one design help &
+                  hand-picked products tailored to your style. space and budget
+                </p>
+              </li>
+
+              <li
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
+                <div class="flex items-center gap-2">
+                  <div
+                    class="h-4 w-4 rounded-full border-[3px] border-secondary"
+                  ></div>
+
+                  <h4 class="font-semibold">Final Touch</h4>
+                </div>
+
+                <p class="mt-2 text-xs">
+                  Being you dream home to life with one or no one design help &
+                  hand-picked products tailored to your style. space and budget
+                </p>
+              </li>
+            </ul>
+          </aside>
+
+          <img
+            src="./assets/process-image.jpg"
+            alt="process-image"
+            class="order-1 shadow-[-20px_-17px] shadow-secondary lg:order-2"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          />
+        </section>
+
+        <!-- Shop by categories -->
+        <section class="container my-10 lg:my-28 lg:gap-20 2xl:gap-44">
+          <h2 class="text-center font-semibold capitalize">
+            Shop By
+            <span class="text-secondary">Categories</span>
+          </h2>
+
+          left...
+        </section>
+
+        <!-- Recent Projects Section -->
+        <section class="container my-10 lg:my-28 lg:gap-20 2xl:gap-44">
+          <div class="flex flex-col gap-6 lg:flex-row">
+            <div class="w-full lg:w-3/12" data-aos="zoom-in">
+              <h2 class="font-montserrat font-semibold">
+                Our Recent <span class="text-secondary">Project</span>
+              </h2>
+              <p>
+                Artisian Interior company employs over 2000 employees, the
+                majority of whom are based on project sites.
+              </p>
+            </div>
+
+            <div class="w-full lg:w-9/12">
+              <div class="flex flex-col gap-6 lg:flex-row">
+                <!-- item -->
+                <div
+                  class="group relative w-full overflow-hidden rounded-sm bg-white p-2 shadow-[0_8px_24px_0_#0000001f] transition-[box-hadow] duration-500 hover:shadow-[0_8px_8px_0_#00000014] lg:w-1/2"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
+                >
+                  <div
+                    class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-secondary bg-opacity-50 text-white opacity-0 transition duration-500 group-hover:opacity-100"
+                  >
+                    <div class="h-fit w-fit">
+                      <p class="font-montserrat text-sm">
+                        Moduler For Living Room
+                      </p>
+                      <p class="text-center">
+                        <a href="#" class="mt-2">
+                          Visit Project
+                          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                  <img src="./assets/projects/Lunar Table Lame.png" alt="" />
+                </div>
+                <!-- item -->
+
+                <div
+                  class="group relative w-full overflow-hidden rounded-sm bg-white p-2 shadow-[0_8px_24px_0_#0000001f] transition-[box-hadow] duration-500 hover:shadow-[0_8px_8px_0_#00000014] lg:w-1/2"
+                  data-aos="zoom-in"
+                  data-aos-delay="400"
+                >
+                  <div
+                    class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-secondary bg-opacity-50 text-white opacity-0 transition duration-500 group-hover:opacity-100"
+                  >
+                    <div class="h-fit w-fit">
+                      <p class="font-montserrat text-sm">
+                        Moduler For Living Room
+                      </p>
+                      <p class="text-center">
+                        <a href="#" class="mt-2">
+                          Visit Project
+                          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                  <img src="./assets/projects/Lunar Table Lame-1.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
-          <!-- button -->
 
-          <div class="flex w-full items-center justify-center lg:w-3/12">
+          <div class="mt-6 flex flex-col gap-6 lg:flex-row">
+            <div class="w-full lg:w-9/12">
+              <div class="flex flex-col gap-6 lg:flex-row">
+                <!-- item -->
+
+                <div
+                  class="group relative w-full overflow-hidden rounded-sm bg-white p-2 shadow-[0_8px_24px_0_#0000001f] transition-[box-hadow] duration-500 hover:shadow-[0_8px_8px_0_#00000014] lg:w-1/2"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
+                >
+                  <div
+                    class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-secondary bg-opacity-50 text-white opacity-0 transition duration-500 group-hover:opacity-100"
+                  >
+                    <div class="h-fit w-fit">
+                      <p class="font-montserrat text-sm">
+                        Moduler For Living Room
+                      </p>
+                      <p class="text-center">
+                        <a href="#" class="mt-2">
+                          Visit Project
+                          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                  <img src="./assets/projects/Lunar Table Lame-2.png" alt="" />
+                </div>
+                <!-- item -->
+
+                <div
+                  class="group relative w-full overflow-hidden rounded-sm bg-white p-2 shadow-[0_8px_24px_0_#0000001f] transition-[box-hadow] duration-500 hover:shadow-[0_8px_8px_0_#00000014] lg:w-1/2"
+                  data-aos="zoom-in"
+                  data-aos-delay="400"
+                >
+                  <div
+                    class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-secondary bg-opacity-50 text-white opacity-0 transition duration-500 group-hover:opacity-100"
+                  >
+                    <div class="h-fit w-fit">
+                      <p class="font-montserrat text-sm">
+                        Moduler For Living Room
+                      </p>
+                      <p class="text-center">
+                        <a href="#" class="mt-2">
+                          Visit Project
+                          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                  <img src="./assets/projects/Lunar Table Lame-3.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- button -->
+
+            <div class="flex w-full items-center justify-center lg:w-3/12">
+              <button
+                class="border-2 border-primary bg-primary px-8 py-4 font-judson text-white shadow-[5px_8px_0] shadow-secondary transition duration-500 hover:border-secondary hover:bg-secondary hover:shadow-none"
+              >
+                View All Projects
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Image gallery section -->
+
+        <section class="container px-0 py-10">
+          <h2 class="text-center font-montserrat font-semibold">
+            Visit Our <span class="text-secondary">Image Gallery</span>
+          </h2>
+
+          <div
+            class="relative -top-20 flex scale-50 items-baseline justify-center lg:top-0 lg:scale-100"
+          >
+            <img
+              src="./assets/image-gallery/Rectangle 525.png"
+              class="absolute bottom-0 left-[-53%] lg:bottom-0 lg:left-0"
+              alt=""
+              data-aos="zoom-in"
+              data-aos-duration="600"
+              data-aos-delay="600"
+            />
+            <img
+              src="./assets/image-gallery/Rectangle 524.png"
+              class="absolute bottom-0 left-[-20%] lg:bottom-0 lg:left-[14.2%]"
+              alt=""
+              data-aos="zoom-in"
+              data-aos-duration="600"
+              data-aos-delay="300"
+            />
+            <img
+              src="./assets/image-gallery/Rectangle 522.png"
+              class="relative -bottom-2 z-[9] !scale-[1.1] lg:-bottom-8 lg:!scale-100"
+              alt=""
+              data-aos="zoom-in"
+              data-aos-duration="600"
+            />
+            <img
+              src="./assets/image-gallery/Rectangle 523.png"
+              class="absolute bottom-0 right-[-20%] z-[1] lg:bottom-0 lg:right-[18.4%]"
+              alt=""
+              data-aos="zoom-in"
+              data-aos-duration="600"
+              data-aos-delay="300"
+            />
+            <img
+              src="./assets/image-gallery/Rectangle 526.png"
+              class="absolute bottom-0 right-[-53%] lg:bottom-0 lg:right-0"
+              alt=""
+              data-aos="zoom-in"
+              data-aos-duration="600"
+              data-aos-delay="600"
+            />
+          </div>
+
+          <div
+            class="mx-auto -mt-32 flex w-full items-center justify-center lg:mt-20 lg:w-3/12"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="600"
+          >
             <button
               class="border-2 border-primary bg-primary px-8 py-4 font-judson text-white shadow-[5px_8px_0] shadow-secondary transition duration-500 hover:border-secondary hover:bg-secondary hover:shadow-none"
             >
               View All Projects
             </button>
           </div>
+        </section>
+      </main>
+
+      <section
+        style="background-image: url(./assets/dream-bg.webp)"
+        class="bg-cover py-20"
+      >
+        <div class="container">
+          <div
+            class="mx-auto flex flex-col items-center gap-4 lg:w-4/5 lg:flex-row lg:gap-0"
+          >
+            <h3
+              class="font-montserrat font-semibold"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              Let’s start your new
+              <span class="text-secondary">dream project</span>
+            </h3>
+            <aside
+              class="relative ml-auto h-14 w-full bg-white lg:w-3/4"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <input
+                type="email"
+                name="email"
+                class="absolute h-full w-full px-5 focus:outline-none"
+                id="email"
+              />
+
+              <input
+                type="submit"
+                value="Send Mail"
+                class="absolute right-0 h-full cursor-pointer bg-primary px-7 font-judson text-xs text-white transition hover:bg-secondary"
+              />
+            </aside>
+          </div>
         </div>
       </section>
 
-      <!-- Image gallery section -->
-
-      <section class="container px-0 py-10">
-        <h2 class="text-center font-montserrat font-semibold">
-          Visit Our <span class="text-secondary">Image Gallery</span>
-        </h2>
-
+      <footer class="relative z-0 bg-primary text-white">
         <div
-          class="relative -top-20 flex scale-50 items-baseline justify-center lg:top-0 lg:scale-100"
+          class="bg-transparent pt-20"
+          style="background-image: url(./assets/header-bg.png)"
         >
-          <img
-            src="./assets/image-gallery/Rectangle 525.png"
-            class="absolute bottom-0 left-[-53%] lg:bottom-0 lg:left-0"
-            alt=""
-            data-aos="zoom-in"
-            data-aos-duration="600"
-            data-aos-delay="600"
-          />
-          <img
-            src="./assets/image-gallery/Rectangle 524.png"
-            class="absolute bottom-0 left-[-20%] lg:bottom-0 lg:left-[14.2%]"
-            alt=""
-            data-aos="zoom-in"
-            data-aos-duration="600"
-            data-aos-delay="300"
-          />
-          <img
-            src="./assets/image-gallery/Rectangle 522.png"
-            class="relative -bottom-2 z-[9] !scale-[1.1] lg:-bottom-8 lg:!scale-100"
-            alt=""
-            data-aos="zoom-in"
-            data-aos-duration="600"
-          />
-          <img
-            src="./assets/image-gallery/Rectangle 523.png"
-            class="absolute bottom-0 right-[-20%] z-[1] lg:bottom-0 lg:right-[18.4%]"
-            alt=""
-            data-aos="zoom-in"
-            data-aos-duration="600"
-            data-aos-delay="300"
-          />
-          <img
-            src="./assets/image-gallery/Rectangle 526.png"
-            class="absolute bottom-0 right-[-53%] lg:bottom-0 lg:right-0"
-            alt=""
-            data-aos="zoom-in"
-            data-aos-duration="600"
-            data-aos-delay="600"
-          />
-        </div>
-
-        <div
-          class="mx-auto -mt-32 flex w-full items-center justify-center lg:mt-20 lg:w-3/12"
-          data-aos="fade-up"
-          data-aos-delay="800"
-          data-aos-duration="600"
-        >
-          <button
-            class="border-2 border-primary bg-primary px-8 py-4 font-judson text-white shadow-[5px_8px_0] shadow-secondary transition duration-500 hover:border-secondary hover:bg-secondary hover:shadow-none"
+          <div
+            class="container grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-4"
           >
-            View All Projects
-          </button>
-        </div>
-      </section>
-    </main>
+            <aside>
+              <img src="./assets/logo-white.png" alt="logo" />
+              <p class="text-gray-dark pt-10 font-inter text-[18px]">
+                Artisan Interior company employs over 2000 employees.
+              </p>
+            </aside>
 
-    <section
-      style="background-image: url(./assets/dream-bg.webp)"
-      class="bg-cover py-20"
-    >
-      <div class="container">
-        <div
-          class="mx-auto flex flex-col items-center gap-4 lg:w-4/5 lg:flex-row lg:gap-0"
-        >
-          <h3
-            class="font-montserrat font-semibold"
-            data-aos="fade-right"
-            data-aos-duration="1000"
+            <aside>
+              <p class="font-montserrat text-xs font-medium">Locations</p>
+              <ul class="mt-5 flex flex-col gap-4 xl:mt-10">
+                <li class="flex gap-3">
+                  <i
+                    class="fa-solid fa-location-dot text-base text-secondary"
+                  ></i>
+                  <p class="text-base">
+                    818 22nd Ave NW Saint Paul, <br />
+                    MN 55112-6629 USA
+                  </p>
+                </li>
+
+                <li class="flex gap-3">
+                  <i
+                    class="fa-solid fa-location-dot text-base text-secondary"
+                  ></i>
+                  <p class="text-base">
+                    818 22nd Ave NW Saint Paul, <br />
+                    MN 55112-6629 USA
+                  </p>
+                </li>
+              </ul>
+            </aside>
+
+            <aside>
+              <p class="font-montserrat text-xs font-medium">Follow Us</p>
+
+              <ul class="mt-5 flex flex-col gap-4 xl:mt-10">
+                <li>
+                  <a
+                    href="#"
+                    class="inline-flex items-center gap-2 transition hover:text-secondary"
+                  >
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <p>Facebook</p>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="inline-flex items-center gap-2 transition hover:text-secondary"
+                  >
+                    <i class="fa-brands fa-youtube-square"></i>
+                    <p>YouTube</p>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="inline-flex items-center gap-2 transition hover:text-secondary"
+                  >
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <p>Instagram</p>
+                  </a>
+                </li>
+              </ul>
+            </aside>
+
+            <aside>
+              <p class="font-montserrat text-xs font-medium">Contact Us</p>
+
+              <ul class="mt-5 flex flex-col gap-4 xl:mt-10">
+                <li class="flex items-center gap-2">
+                  <i class="fa-solid fa-envelope"></i>
+                  <a
+                    href="mailto:support@raddito.com"
+                    class="transition hover:text-secondary"
+                    >support@raddito.com</a
+                  >
+                </li>
+
+                <li class="flex items-center gap-2">
+                  <i class="fa-solid fa-envelope"></i>
+                  <a
+                    href="mailto:info@raddito.com"
+                    class="transition hover:text-secondary"
+                    >info@raddito.com</a
+                  >
+                </li>
+
+                <li class="flex items-center gap-2">
+                  <i class="fa-solid fa-phone"></i>
+                  <a
+                    href="callto:833-900-8338"
+                    class="transition hover:text-secondary"
+                    >833-900-8338</a
+                  >
+                </li>
+
+                <li class="flex items-center gap-2">
+                  <i class="fa-solid fa-phone"></i>
+                  <a
+                    href="callto:833-900-8338"
+                    class="transition hover:text-secondary"
+                    >833-900-8338</a
+                  >
+                </li>
+              </ul>
+            </aside>
+          </div>
+          <div
+            class="mt-10 bg-black bg-opacity-40 py-7 text-center font-montserrat"
           >
-            Let’s start your new
-            <span class="text-secondary">dream project</span>
-          </h3>
-          <aside
-            class="relative ml-auto h-14 w-full bg-white lg:w-3/4"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-          >
-            <input
-              type="email"
-              name="email"
-              class="absolute h-full w-full px-5 focus:outline-none"
-              id="email"
-            />
-
-            <input
-              type="submit"
-              value="Send Mail"
-              class="absolute right-0 h-full cursor-pointer bg-primary px-7 font-judson text-xs text-white transition hover:bg-secondary"
-            />
-          </aside>
+            <div class="container">
+              Copyright &copy;<span id="year"></span>
+              Designed & Developed by
+              <a
+                href="https://raddito.net/"
+                class="font-semibold text-secondary"
+                target="_blank"
+                >Raddito LLC</a
+              >
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-
+      </footer>
+    </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script>
     <script type="module" src="./main.js"></script>

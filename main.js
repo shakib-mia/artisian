@@ -37,3 +37,8 @@ document.getElementById("video-check").addEventListener("change", (e) => {
   //   audio.pause();
   // }
 });
+
+const date = new Date();
+
+// console.log(date.getFullYear());
+document.getElementById("year").innerText = date.getFullYear();

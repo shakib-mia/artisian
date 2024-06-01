@@ -17,7 +17,7 @@ export default {
       colors: {
         primary: "#0B2727",
         secondary: "#FF7E01",
-        gray: "#EAEAEA",
+        gray: { DEFAULT: "#EAEAEA", dark: "#b2b2b2" },
         white: "#FFFFFF",
       },
       fontSize: {
