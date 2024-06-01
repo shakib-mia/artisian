@@ -68,3 +68,7 @@ button {
 #video-check:checked + #video-container {
   @apply visible;
 }
+
+.visit::after {
+  content: "\f08e";
+}
