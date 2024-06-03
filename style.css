@@ -11,6 +11,10 @@
   width: 0;
 }
 
+html {
+  /* @apply scroll-smooth; */
+}
+
 body {
   @apply font-inter;
 }
@@ -71,4 +75,30 @@ button {
 
 .visit::after {
   content: "\f08e";
+}
+
+.category {
+  display: none;
+}
+
+#cat-1:checked ~ #total-container #category-1,
+#cat-2:checked ~ #total-container #category-2,
+#cat-3:checked ~ #total-container #category-3,
+#cat-4:checked ~ #total-container #category-4,
+#cat-5:checked ~ #total-container #category-5,
+#cat-6:checked ~ #total-container #category-6,
+#cat-7:checked ~ #total-container #category-7,
+#cat-8:checked ~ #total-container #category-8 {
+  @apply grid;
+}
+
+#cat-1:checked ~ #total-container #category-label-1,
+#cat-2:checked ~ #total-container #category-label-2,
+#cat-3:checked ~ #total-container #category-label-3,
+#cat-4:checked ~ #total-container #category-label-4,
+#cat-5:checked ~ #total-container #category-label-5,
+#cat-6:checked ~ #total-container #category-label-6,
+#cat-7:checked ~ #total-container #category-label-7,
+#cat-8:checked ~ #total-container #category-label-8 {
+  @apply text-secondary underline underline-offset-4;
 }
