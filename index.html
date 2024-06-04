@@ -27,12 +27,12 @@
           <img src="./assets/images/logo.png" class="h-fit" alt="logo" />
 
           <label class="lg:hidden" for="nav-check">
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars text-sm"></i>
           </label>
           <input type="checkbox" name="" id="nav-check" class="hidden" />
 
           <ul
-            class="absolute left-0 top-16 z-[1] flex h-0 w-full flex-col items-center gap-12 overflow-hidden bg-white font-judson text-sm lg:static lg:top-0 lg:h-auto lg:flex-row lg:justify-end lg:bg-transparent lg:pt-0"
+            class="absolute left-0 top-16 z-[1] flex h-0 w-full flex-col items-center gap-12 overflow-hidden bg-white font-judson text-sm shadow-xl lg:static lg:top-0 lg:h-auto lg:flex-row lg:justify-end lg:bg-transparent lg:pt-0 lg:shadow-none"
             id="navbar"
           >
             <li
@@ -200,43 +200,53 @@
       <main class="container">
         <!-- clients section -->
         <div
-          class="grid grid-cols-5 items-center bg-white px-3 py-6 shadow-[-31px_52px_95px_#3E3E3E14] lg:px-12 lg:py-14"
+          class="mt-4 grid grid-cols-5 items-center bg-white py-6 shadow-[-31px_52px_95px_#3E3E3E14] lg:mt-0 lg:px-12 lg:py-14"
         >
-          <img
-            src="./assets/images/clients/Mask group-3.png"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-            data-aos-delay="400"
-            alt="kiski"
-          />
-          <img
-            src="./assets/images/clients/Mask group-2.png"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-            data-aos-delay="200"
-            alt="makita"
-          />
-          <img
-            src="./assets/images/clients/Mask group-1.png"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-            data-aos-delay="0"
-            alt="braun"
-          />
-          <img
-            src="./assets/images/clients/Mask group-4.png"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-            data-aos-delay="200"
-            alt="krasavik.by"
-          />
-          <img
-            src="./assets/images/clients/Mask group-1.png"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-            data-aos-delay="400"
-            alt="braun"
-          />
+          <div class="scale-125 lg:scale-100">
+            <img
+              src="./assets/images/clients/Mask group-3.png"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+              alt="kiski"
+            />
+          </div>
+          <div class="scale-125 lg:scale-100">
+            <img
+              src="./assets/images/clients/Mask group-2.png"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              alt="makita"
+            />
+          </div>
+          <div class="scale-125 lg:scale-100">
+            <img
+              src="./assets/images/clients/Mask group-1.png"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="0"
+              alt="braun"
+            />
+          </div>
+          <div class="scale-125 lg:scale-100">
+            <img
+              src="./assets/images/clients/Mask group-4.png"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              alt="krasavik.by"
+            />
+          </div>
+          <div class="scale-125 lg:scale-100">
+            <img
+              src="./assets/images/clients/Mask group-1.png"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+              alt="braun"
+            />
+          </div>
         </div>
 
         <!-- Home projects section -->
@@ -421,7 +431,7 @@
         <!-- Shop by categories -->
         <section class="my-10 lg:my-28 lg:gap-20 2xl:gap-44" id="products">
           <h2
-            class="mb-16 text-center font-semibold capitalize"
+            class="mb-6 text-center font-semibold capitalize lg:mb-16"
             data-aos="fade-up"
             data-aos-duration="800"
           >
@@ -469,13 +479,13 @@
 
           <div class="flex flex-col gap-8 lg:flex-row" id="total-container">
             <aside
-              class="w-full bg-white py-0 shadow-xl lg:w-1/5"
+              class="w-full overflow-x-scroll bg-white py-0 shadow-md lg:w-1/5"
               id="aside-container"
               data-aos="fade-up"
               data-aos-duration="700"
             >
               <ul
-                class="flex h-full flex-wrap justify-between gap-5 font-montserrat text-base font-semibold md:text-sm lg:flex-col lg:gap-0"
+                class="flex h-full w-[400vw] flex-wrap justify-between gap-5 overflow-x-scroll pb-0 font-montserrat text-base font-semibold md:text-sm lg:flex-col lg:gap-0 lg:overflow-x-auto lg:py-4"
               >
                 <li class="px-6 xl:leading-[4rem]" id="category-label-1">
                   <label for="cat-1" class="cursor-pointer"
@@ -515,7 +525,7 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="200"
@@ -526,7 +536,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -537,7 +547,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="400"
@@ -548,7 +558,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -559,7 +569,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="600"
@@ -570,7 +580,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -581,7 +591,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="800"
@@ -592,7 +602,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -603,7 +613,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="200"
@@ -614,7 +624,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -625,7 +635,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="400"
@@ -636,7 +646,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -647,7 +657,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="600"
@@ -658,7 +668,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -669,7 +679,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="800"
@@ -680,7 +690,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -698,7 +708,7 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="200"
@@ -709,7 +719,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -720,7 +730,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="400"
@@ -731,7 +741,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -742,7 +752,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="600"
@@ -753,7 +763,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -764,7 +774,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="800"
@@ -775,7 +785,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -786,7 +796,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="200"
@@ -797,7 +807,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -808,7 +818,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="400"
@@ -819,7 +829,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -830,7 +840,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="600"
@@ -841,7 +851,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -852,7 +862,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="800"
@@ -863,7 +873,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -881,7 +891,7 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-6.png"
@@ -889,7 +899,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -900,7 +910,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-7.png"
@@ -908,7 +918,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -919,7 +929,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497.png"
@@ -927,7 +937,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -938,7 +948,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-1.png"
@@ -946,7 +956,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -957,7 +967,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-2.png"
@@ -965,7 +975,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -976,7 +986,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-3.png"
@@ -984,7 +994,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -995,7 +1005,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-4.png"
@@ -1003,7 +1013,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1014,7 +1024,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-5.png"
@@ -1022,7 +1032,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1040,7 +1050,7 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-5.png"
@@ -1048,7 +1058,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1059,7 +1069,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-6.png"
@@ -1067,7 +1077,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1078,7 +1088,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-7.png"
@@ -1086,7 +1096,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1097,7 +1107,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497.png"
@@ -1105,7 +1115,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1116,7 +1126,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-1.png"
@@ -1124,7 +1134,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1135,7 +1145,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-2.png"
@@ -1143,7 +1153,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1154,7 +1164,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-3.png"
@@ -1162,7 +1172,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1173,7 +1183,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-4.png"
@@ -1181,7 +1191,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1199,7 +1209,7 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-4.png"
@@ -1207,7 +1217,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1218,7 +1228,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-5.png"
@@ -1226,7 +1236,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1237,7 +1247,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-6.png"
@@ -1245,7 +1255,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1256,7 +1266,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-7.png"
@@ -1264,7 +1274,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1275,7 +1285,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497.png"
@@ -1283,7 +1293,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1294,7 +1304,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-1.png"
@@ -1302,7 +1312,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1313,7 +1323,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-2.png"
@@ -1321,7 +1331,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1332,7 +1342,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-3.png"
@@ -1340,7 +1350,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1358,7 +1368,7 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-3.png"
@@ -1366,7 +1376,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1377,7 +1387,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-4.png"
@@ -1385,7 +1395,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1396,7 +1406,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-5.png"
@@ -1404,7 +1414,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1415,7 +1425,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-6.png"
@@ -1423,7 +1433,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1434,7 +1444,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-7.png"
@@ -1442,7 +1452,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1453,7 +1463,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497.png"
@@ -1461,7 +1471,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1472,7 +1482,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-1.png"
@@ -1480,7 +1490,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1491,7 +1501,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-2.png"
@@ -1499,7 +1509,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1517,7 +1527,7 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-1.png"
@@ -1525,7 +1535,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1536,7 +1546,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-2.png"
@@ -1544,7 +1554,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1555,7 +1565,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-3.png"
@@ -1563,7 +1573,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1574,7 +1584,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-4.png"
@@ -1582,7 +1592,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1593,7 +1603,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-5.png"
@@ -1601,7 +1611,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1612,7 +1622,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-6.png"
@@ -1620,7 +1630,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1631,7 +1641,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-7.png"
@@ -1639,7 +1649,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1650,7 +1660,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497.png"
@@ -1658,7 +1668,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1676,7 +1686,7 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-2.png"
@@ -1684,7 +1694,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1695,7 +1705,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-3.png"
@@ -1703,7 +1713,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1714,7 +1724,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-4.png"
@@ -1722,7 +1732,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1733,7 +1743,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-5.png"
@@ -1741,7 +1751,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1752,7 +1762,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-6.png"
@@ -1760,7 +1770,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1771,7 +1781,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-7.png"
@@ -1779,7 +1789,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1790,7 +1800,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497.png"
@@ -1798,7 +1808,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -1809,7 +1819,7 @@
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-md transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-1.png"
@@ -1817,7 +1827,7 @@
                       class="w-full"
                     />
 
-                    <div class="w-full p-2 text-primary">
+                    <div class="w-full bg-white p-4 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
 
                       <div class="mt-1 flex justify-between font-bold">
@@ -2068,7 +2078,7 @@
         <div
           class="container mx-auto flex flex-col items-center gap-4 lg:w-4/5 lg:flex-row lg:gap-0"
         >
-          <aside class="w-5/12">
+          <aside class="lg:w-5/12">
             <h2
               class="font-montserrat font-semibold"
               data-aos="fade-right"

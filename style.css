@@ -50,7 +50,7 @@ button {
 /* } */
 
 #nav-check:checked + #navbar {
-  @apply h-auto;
+  @apply h-auto pb-6;
 }
 
 #video-container iframe {
