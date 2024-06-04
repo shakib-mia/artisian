@@ -35,19 +35,29 @@
             class="absolute left-0 top-16 z-[1] flex h-0 w-full flex-col items-center gap-12 overflow-hidden bg-white font-judson text-sm lg:static lg:top-0 lg:h-auto lg:flex-row lg:justify-end lg:bg-transparent lg:pt-0"
             id="navbar"
           >
-            <li class="hover:text-secondary hover:underline">
+            <li
+              class="border-b-2 border-transparent transition duration-500 hover:border-secondary hover:text-secondary"
+            >
               <a href="#home">Home</a>
             </li>
-            <li class="hover:text-secondary hover:underline">
+            <li
+              class="border-b-2 border-transparent transition duration-500 hover:border-secondary hover:text-secondary"
+            >
               <a href="#services">Services</a>
             </li>
-            <li class="hover:text-secondary hover:underline">
+            <li
+              class="border-b-2 border-transparent transition duration-500 hover:border-secondary hover:text-secondary"
+            >
               <a href="#products">Products</a>
             </li>
-            <li class="hover:text-secondary hover:underline">
+            <li
+              class="border-b-2 border-transparent transition duration-500 hover:border-secondary hover:text-secondary"
+            >
               <a href="#gallery">Gallery</a>
             </li>
-            <li class="hover:text-secondary hover:underline">
+            <li
+              class="border-b-2 border-transparent transition duration-500 hover:border-secondary hover:text-secondary"
+            >
               <a href="#review">Review</a>
             </li>
             <li>
@@ -65,11 +75,11 @@
       <!-- Hero section -->
 
       <header
-        class="container flex flex-wrap-reverse items-end gap-6 lg:flex-nowrap lg:items-center lg:gap-12 xl:h-[90vh]"
+        class="container flex flex-wrap-reverse items-end gap-6 lg:flex-nowrap lg:items-center lg:gap-0 xl:h-screen"
       >
-        <aside class="w-full xl:w-1/2">
+        <aside class="w-full pr-4 xl:w-1/2">
           <h1
-            class="font-sansation font-bold uppercase lg:w-9/12"
+            class="font-sansation font-bold uppercase"
             data-aos="fade-right"
             data-aos-duration="1000"
           >
@@ -77,7 +87,7 @@
             <span class="text-secondary">YOUR HOME</span>
           </h1>
           <p
-            class="mb-7 mt-4 text-xs lg:mb-28 lg:mt-8 lg:w-9/12"
+            class="mb-7 mt-4 text-xs lg:my-3 lg:w-10/12"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay="100"
@@ -129,7 +139,7 @@
             </label>
           </div>
         </aside>
-        <aside class="mt-auto w-full pr-5 lg:mt-0 xl:w-1/2">
+        <aside class="mt-auto w-full lg:mt-0 xl:w-1/2">
           <!-- Hero images -->
 
           <div class="mb-2 flex gap-2 lg:mb-5 lg:gap-5">
@@ -258,7 +268,7 @@
             class="mt-20 grid grid-cols-1 gap-14 md:grid-cols-2 lg:grid-cols-3"
           >
             <div
-              class="group bg-white p-10 text-center shadow-[0_8px_16px_0_#00000014] duration-700 hover:shadow-[0_16px_24px_0_#0000001F]"
+              class="group bg-white p-5 text-center shadow-[0_8px_16px_0_#00000014] duration-700 hover:shadow-[0_16px_24px_0_#0000001F] md:p-7 xl:p-10"
               data-aos="fade-up"
               data-aos-duration="1000"
             >
@@ -279,7 +289,7 @@
               </button>
             </div>
             <div
-              class="group bg-white p-10 text-center shadow-[0_8px_16px_0_#00000014] duration-700 hover:shadow-[0_16px_24px_0_#0000001F]"
+              class="group bg-white p-5 text-center shadow-[0_8px_16px_0_#00000014] duration-700 hover:shadow-[0_16px_24px_0_#0000001F] md:p-7 xl:p-10"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="500"
@@ -301,7 +311,7 @@
               </button>
             </div>
             <div
-              class="group bg-white p-10 text-center shadow-[0_8px_16px_0_#00000014] duration-700 hover:shadow-[0_16px_24px_0_#0000001F]"
+              class="group bg-white p-5 text-center shadow-[0_8px_16px_0_#00000014] duration-700 hover:shadow-[0_16px_24px_0_#0000001F] md:p-7 xl:p-10"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="1000"
@@ -459,38 +469,38 @@
 
           <div class="flex flex-col gap-8 lg:flex-row" id="total-container">
             <aside
-              class="w-full bg-white px-6 py-4 shadow-xl lg:w-1/6"
+              class="w-full bg-white py-0 shadow-xl lg:w-1/5"
               id="aside-container"
               data-aos="fade-up"
               data-aos-duration="700"
             >
               <ul
-                class="flex flex-wrap justify-center gap-5 font-montserrat text-base font-semibold md:text-sm lg:flex-col"
+                class="flex h-full flex-wrap justify-between gap-5 font-montserrat text-base font-semibold md:text-sm lg:flex-col lg:gap-0"
               >
-                <li class="xl:leading-[4rem]" id="category-label-1">
+                <li class="px-6 xl:leading-[4rem]" id="category-label-1">
                   <label for="cat-1" class="cursor-pointer"
                     >All Categories</label
                   >
                 </li>
-                <li class="xl:leading-[4rem]" id="category-label-2">
+                <li class="px-6 xl:leading-[4rem]" id="category-label-2">
                   <label for="cat-2" class="cursor-pointer">BED ROOM</label>
                 </li>
-                <li class="xl:leading-[4rem]" id="category-label-3">
+                <li class="px-6 xl:leading-[4rem]" id="category-label-3">
                   <label for="cat-3" class="cursor-pointer">KITCHEN</label>
                 </li>
-                <li class="xl:leading-[4rem]" id="category-label-4">
+                <li class="px-6 xl:leading-[4rem]" id="category-label-4">
                   <label for="cat-4" class="cursor-pointer">LIVING ROOM</label>
                 </li>
-                <li class="xl:leading-[4rem]" id="category-label-5">
+                <li class="px-6 xl:leading-[4rem]" id="category-label-5">
                   <label for="cat-5" class="cursor-pointer">DRAWING</label>
                 </li>
-                <li class="xl:leading-[4rem]" id="category-label-6">
+                <li class="px-6 xl:leading-[4rem]" id="category-label-6">
                   <label for="cat-6" class="cursor-pointer">WALL MAT</label>
                 </li>
-                <li class="xl:leading-[4rem]" id="category-label-7">
+                <li class="px-6 xl:leading-[4rem]" id="category-label-7">
                   <label for="cat-7" class="cursor-pointer">TRADITIONAL</label>
                 </li>
-                <li class="xl:leading-[4rem]" id="category-label-8">
+                <li class="px-6 xl:leading-[4rem]" id="category-label-8">
                   <label for="cat-8" class="cursor-pointer">DINING</label>
                 </li>
               </ul>
@@ -500,12 +510,12 @@
               <div id="categories-content">
                 <!-- Items Container -->
                 <div
-                  class="category grid grid-cols-1 gap-x-8 gap-y-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+                  class="category grid grid-cols-1 gap-x-8 gap-y-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-6 xl:grid-cols-4"
                   id="category-1"
                 >
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="200"
@@ -513,35 +523,21 @@
                     <img
                       src="./assets/images/categories/Rectangle 497.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$1200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="400"
@@ -549,35 +545,21 @@
                     <img
                       src="./assets/images/categories/Rectangle 497-1.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$150.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="600"
@@ -585,35 +567,21 @@
                     <img
                       src="./assets/images/categories/Rectangle 497-2.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="800"
@@ -621,35 +589,21 @@
                     <img
                       src="./assets/images/categories/Rectangle 497-3.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="200"
@@ -657,35 +611,21 @@
                     <img
                       src="./assets/images/categories/Rectangle 497-4.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$120.88</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="400"
@@ -693,35 +633,21 @@
                     <img
                       src="./assets/images/categories/Rectangle 497-5.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="600"
@@ -729,35 +655,21 @@
                     <img
                       src="./assets/images/categories/Rectangle 497-6.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="800"
@@ -765,29 +677,15 @@
                     <img
                       src="./assets/images/categories/Rectangle 497-7.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
@@ -800,7 +698,7 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="200"
@@ -808,35 +706,21 @@
                     <img
                       src="./assets/images/categories/Rectangle 497-7.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="400"
@@ -844,35 +728,21 @@
                     <img
                       src="./assets/images/categories/Rectangle 497.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$1200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="600"
@@ -880,35 +750,21 @@
                     <img
                       src="./assets/images/categories/Rectangle 497-1.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$150.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="800"
@@ -916,35 +772,21 @@
                     <img
                       src="./assets/images/categories/Rectangle 497-2.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="200"
@@ -952,35 +794,21 @@
                     <img
                       src="./assets/images/categories/Rectangle 497-3.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="400"
@@ -988,35 +816,21 @@
                     <img
                       src="./assets/images/categories/Rectangle 497-4.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$120.88</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="600"
@@ -1024,35 +838,21 @@
                     <img
                       src="./assets/images/categories/Rectangle 497-5.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="800"
@@ -1060,29 +860,15 @@
                     <img
                       src="./assets/images/categories/Rectangle 497-6.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
@@ -1095,265 +881,153 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-6.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-7.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$1200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-1.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$150.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-2.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-3.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-4.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$120.88</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-5.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
@@ -1366,265 +1040,153 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-5.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-6.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-7.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$1200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-1.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$150.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-2.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-3.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-4.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$120.88</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
@@ -1637,265 +1199,153 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-4.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$120.88</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-5.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-6.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-7.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$1200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-1.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$150.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-2.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-3.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
@@ -1908,265 +1358,153 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-3.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-4.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$120.88</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-5.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-6.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-7.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$1200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-1.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$150.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-2.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
@@ -2179,265 +1517,153 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-1.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$150.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-2.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-3.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-4.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$120.88</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-5.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-6.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-7.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$1200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
@@ -2450,265 +1676,153 @@
                 >
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-2.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Bed Side Table</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-3.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-4.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Big Leaves Mirror</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$120.88</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-5.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Lunar Table Lame</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-6.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Wall Shelf</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$180.95</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-7.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Velvet Curb Sofa</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$750.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Fancy Chandelie</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$1200.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
                   <!-- Item -->
                   <div
-                    class="group relative h-[385px] overflow-hidden rounded border-4 border-gray-dark bg-gray-dark hover:shadow-xl"
+                    class="group relative overflow-hidden rounded shadow-lg transition duration-500 hover:shadow-xl"
                   >
                     <img
                       src="./assets/images/categories/Rectangle 497-1.png"
                       alt=""
-                      class="absolute top-0 w-full transition duration-1000 group-hover:-top-6"
+                      class="w-full"
                     />
 
-                    <div
-                      class="absolute bottom-0 w-full bg-gray-dark p-2 text-primary"
-                    >
+                    <div class="w-full p-2 text-primary">
                       <h6 class="font-bold">Hanging Chair Pair</h6>
-                      <p
-                        class="hidden text-[11px] font-light group-hover:block"
-                      >
-                        The perforated patterns on the curved and dim base of
-                        this table lamp reflect an interpretation
-                      </p>
-                      <div class="mt-1 flex justify-between group-hover:mt-4">
+
+                      <div class="mt-1 flex justify-between font-bold">
                         <p class="text-base">$150.00</p>
-                        <i
-                          class="fa-solid fa-arrow-right-long group-hover:hidden"
-                        ></i>
-                        <button
-                          class="hidden bg-primary px-2 py-1 text-[12px] text-white group-hover:block"
-                        >
-                          Shop Now
-                        </button>
+                        <i class="fa-solid fa-cart-shopping"></i>
                       </div>
                     </div>
                   </div>
@@ -2743,7 +1857,9 @@
                     class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-secondary bg-opacity-50 text-white opacity-0 transition duration-500 group-hover:opacity-100"
                   >
                     <div class="h-fit w-fit">
-                      <p class="font-montserrat text-[2rem] font-semibold">
+                      <p
+                        class="font-montserrat text-[20px] font-semibold lg:text-[2rem]"
+                      >
                         Moduler For Living Room
                       </p>
                       <p class="text-center">
@@ -2771,7 +1887,9 @@
                     class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-secondary bg-opacity-50 text-white opacity-0 transition duration-500 group-hover:opacity-100"
                   >
                     <div class="h-fit w-fit">
-                      <p class="font-montserrat text-[2rem] font-semibold">
+                      <p
+                        class="font-montserrat text-[20px] font-semibold lg:text-[2rem]"
+                      >
                         Moduler For Living Room
                       </p>
                       <p class="text-center">
@@ -2806,7 +1924,9 @@
                     class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-secondary bg-opacity-50 text-white opacity-0 transition duration-500 group-hover:opacity-100"
                   >
                     <div class="h-fit w-fit">
-                      <p class="font-montserrat text-[2rem] font-semibold">
+                      <p
+                        class="font-montserrat text-[20px] font-semibold lg:text-[2rem]"
+                      >
                         Moduler For Living Room
                       </p>
                       <p class="text-center">
@@ -2834,7 +1954,9 @@
                     class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-secondary bg-opacity-50 text-white opacity-0 transition duration-500 group-hover:opacity-100"
                   >
                     <div class="h-fit w-fit">
-                      <p class="font-montserrat text-[2rem] font-semibold">
+                      <p
+                        class="font-montserrat text-[20px] font-semibold lg:text-[2rem]"
+                      >
                         Moduler For Living Room
                       </p>
                       <p class="text-center">
@@ -2880,7 +2002,7 @@
           </h2>
 
           <div
-            class="relative -top-16 flex scale-50 items-baseline justify-center sm:-top-20 lg:top-0 lg:scale-100"
+            class="relative -top-12 flex scale-50 items-baseline justify-center sm:-top-20 lg:top-0 lg:scale-100"
           >
             <img
               src="./assets/images/image-gallery/Rectangle 525.png"
@@ -2892,7 +2014,7 @@
             />
             <img
               src="./assets/images/image-gallery/Rectangle 524.png"
-              class="absolute bottom-0 left-[-23%] h-[14rem] sm:h-[15rem] md:h-[80%] lg:bottom-0 lg:left-[11.2%] xl:left-[14.2%]"
+              class="absolute bottom-0 left-[-23%] h-[11rem] sm:h-[15rem] md:h-[80%] lg:bottom-0 lg:left-[11.2%] xl:left-[14.2%]"
               alt=""
               data-aos="fade-left"
               data-aos-duration="600"
@@ -2907,7 +2029,7 @@
             />
             <img
               src="./assets/images/image-gallery/Rectangle 523.png"
-              class="absolute bottom-0 right-[-20%] z-[1] h-[14rem] sm:h-[15rem] md:h-[80%] lg:bottom-0 lg:right-[10.4%]"
+              class="absolute bottom-0 right-[-20%] z-[1] h-[11rem] sm:h-[15rem] md:h-[80%] lg:bottom-0 lg:right-[10.4%]"
               alt=""
               data-aos="fade-right"
               data-aos-duration="600"
@@ -2943,37 +2065,37 @@
         class="bg-cover py-20"
         id="contact"
       >
-        <div class="container">
-          <div
-            class="mx-auto flex flex-col items-center gap-4 lg:w-4/5 lg:flex-row lg:gap-0"
-          >
-            <h3
+        <div
+          class="container mx-auto flex flex-col items-center gap-4 lg:w-4/5 lg:flex-row lg:gap-0"
+        >
+          <aside class="w-5/12">
+            <h2
               class="font-montserrat font-semibold"
               data-aos="fade-right"
               data-aos-duration="1000"
             >
               Let’s start your new
               <span class="text-secondary">dream project</span>
-            </h3>
-            <aside
-              class="relative ml-auto h-14 w-full bg-white lg:w-3/4"
-              data-aos="fade-left"
-              data-aos-duration="1000"
-            >
-              <input
-                type="email"
-                name="email"
-                class="absolute h-full w-full px-5 focus:outline-none"
-                id="email"
-              />
+            </h2>
+          </aside>
+          <aside
+            class="ml-auto h-full w-full lg:w-6/12"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <input
+              type="email"
+              name="email"
+              class="h-full w-full px-5 py-4 focus:outline-none"
+              id="email"
+            />
 
-              <input
-                type="submit"
-                value="Send Mail"
-                class="absolute right-0 h-full cursor-pointer bg-primary px-7 font-judson text-xs text-white transition hover:bg-secondary"
-              />
-            </aside>
-          </div>
+            <input
+              type="submit"
+              value="Subscribe"
+              class="mt-4 h-full cursor-pointer bg-primary px-7 py-4 font-judson text-xs text-white transition hover:bg-secondary"
+            />
+          </aside>
         </div>
       </section>
 

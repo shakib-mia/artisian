@@ -21,15 +21,15 @@ body {
 
 /* @layer components { */
 h1 {
-  @apply text-md lg:text-lg xl:text-xl 2xl:text-2xl;
+  @apply text-md lg:text-lg xl:text-[4rem];
 }
 
 h2 {
-  @apply text-md xl:text-lg 2xl:text-xl;
+  @apply text-sm xl:text-lg;
 }
 
 h3 {
-  @apply text-sm lg:text-md 2xl:text-lg;
+  @apply text-sm lg:text-md;
 }
 
 h4 {
@@ -37,15 +37,15 @@ h4 {
 }
 
 h5 {
-  @apply text-xxs lg:text-xxs xl:text-xs 2xl:text-sm;
+  @apply text-xxs lg:text-xxs xl:text-xs;
 }
 
 h6 {
-  @apply text-xxs lg:text-xxs xl:text-xxs 2xl:text-xs;
+  @apply text-xxs lg:text-xxs xl:text-xxs;
 }
 
 button {
-  @apply text-xxs md:text-xs 2xl:text-button;
+  @apply text-xxs md:text-xs;
 }
 /* } */
 
@@ -100,5 +100,5 @@ button {
 #cat-6:checked ~ #total-container #category-label-6,
 #cat-7:checked ~ #total-container #category-label-7,
 #cat-8:checked ~ #total-container #category-label-8 {
-  @apply text-secondary underline underline-offset-4;
+  @apply text-secondary underline underline-offset-[8px];
 }
