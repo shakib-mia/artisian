@@ -2,7 +2,7 @@
 
 ## Description
 
-**Artisian HTML Template with Vite and Tailwind CSS**
+**Artisian - Home Interior HTML Template with Vite and Tailwind CSS**
 
 Artisian: A sleek and modern home interior template crafted with ViteJS. Perfect for interior designers, decorators, and home renovation experts looking to showcase their projects and services with style.
 
