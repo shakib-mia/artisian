@@ -1,7 +1,9 @@
 import AOS from "aos";
 import "aos";
 
-AOS.init();
+AOS.init({
+  once: true,
+});
 
 const lenis = new Lenis({
   duration: 1.2,
@@ -30,7 +32,7 @@ document.getElementById("video-check").addEventListener("change", (e) => {
     setTimeout(() => (iframe.src = ""), 500);
   } else {
     iframe.src =
-      "https://www.youtube.com/embed/xcJtL7QggTI?si=1Foi26HSTSFzNqJT";
+      "https://www.youtube.com/embed/Os1oDqefGOA?si=ZNoNK5qI3_0xqDn8";
   }
   // if (video) {
   //   video.pause();
